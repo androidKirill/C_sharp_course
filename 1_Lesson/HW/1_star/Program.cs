@@ -1,7 +1,6 @@
 ﻿// *. Напишите программу вычисления модуля числа.
 
-string s_N = Console.ReadLine();
-int N = int.Parse(s_N);
+int N = int.Parse(Console.ReadLine());
 
 if (N < 0)
 {
