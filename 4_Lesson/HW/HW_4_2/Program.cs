@@ -17,16 +17,16 @@ int SumNums(int num)
 
 // --------------------------------- 2 вариант
 
-int SumNums(int num)
-{
-    int n_sum = 0;
+// int SumNums(int num)
+// {
+//     int n_sum = 0;
 
-    for (int i = num; i != 0; i /= 10)
-        n_sum += num % 10;
+//     for (int i = num; i != 0; i /= 10)
+//         n_sum += num % 10;
 
-    return n_sum;
-}
+//     return n_sum;
+// }
 
-Console.WriteLine(SumNums(452));
-Console.WriteLine(SumNums(82));
-Console.WriteLine(SumNums(9012));
+// Console.WriteLine(SumNums(452));
+// Console.WriteLine(SumNums(82));
+// Console.WriteLine(SumNums(9012));
