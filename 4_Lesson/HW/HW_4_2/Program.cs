@@ -27,6 +27,6 @@ int SumNums(int num)
 //     return n_sum;
 // }
 
-Console.WriteLine(SumNums(452));
-Console.WriteLine(SumNums(82));
-Console.WriteLine(SumNums(9012));
+// Console.WriteLine(SumNums(452));
+// Console.WriteLine(SumNums(82));
+// Console.WriteLine(SumNums(9012));
