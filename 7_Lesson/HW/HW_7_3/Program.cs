@@ -35,7 +35,7 @@ void ArithmeticMean(int[,] arr)
     {
         res = 0;
         for (int j = 0; j < row; j++) res += arr[j, i];
-        Console.Write($"{Math.Round(res / column, 1)}; ");
+        Console.Write($"{Math.Round(res / row, 2)}; ");
     }
 }
 
